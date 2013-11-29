@@ -131,6 +131,13 @@
 	}
 	
 	
+/* Restrict Dropdown size*/
+#dropdown-restrict{
+    max-height: 200px;
+    overflow: auto;
+  
+}
+
 
 
 </style>
@@ -159,8 +166,20 @@
 	                <li><a href="#about">About Us</a></li>
 	
 	                <li class="dropdown">
-						<a href="#contact">Contact</a>
-					</li>
+	                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact SDC Affiliate<b class="caret"></b></a>
+	                  <ul class="dropdown-menu" id="dropdown-restrict">
+						<li class="divider"></li>
+	                    <li class="dropdown-header">A-C</li>
+	                    <li><a href="#">Alexander</a></li>
+	                    <li><a href="#">Avent</a></li>
+	                    <li><a href="#">Avery</a></li>
+	                    <li class="divider"></li>
+	                    <li class="dropdown-header">D-E</li>
+	                    <li><a href="#">Alexander</a></li>
+	                    <li><a href="#">Avent</a></li>
+	                    <li><a href="#">Avery</a></li>
+	                  </ul>
+	                </li>
 	
 	                <li class="dropdown">
 	                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">NC Data Service Public Websites<b class="caret"></b></a>
@@ -171,10 +190,7 @@
 						<li><a href="#">State Demographics - Estimates/Projections</a></li>
 						<li><a href="#">State Comparisons - All States</a></li>
 						<li><a href="#">State Data Center - Directory Info</a></li>
-	                    <li class="divider"></li>
-	                    <li class="dropdown-header">Nav header</li>
-	                    <li><a href="#">Something other than above</a></li>
-	                    <li><a href="#">One more something other</a></li>
+	                    
 	                  </ul>
 	                </li>
 	              </ul>
