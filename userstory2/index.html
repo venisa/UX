@@ -6,10 +6,10 @@ text {
   font: 10px sans-serif;
 }
 
-div{
-position: absolute;
-left: 50%;
-top: 75%;
+.bubble{	
+position: absolute;	
+margin-left: auto;
+top: 120px
 }
 
 h1 { 
@@ -17,39 +17,111 @@ font-size: 30px;
 font-weight: 300;
 letter-spacing: -2px;
 margin: .3em 0 .1em 0;
-top: 5px;
-left: 43%;
+top: 50px;
+left: 30%;
 position: absolute;
 }
 
 img{
-height: 125px;
-width: 125px;
+height: 350px;
+width: 350px;
 position: absolute;
-bottom: 10%;
+top: 400px;
+left: 900px;
 right: 20%;
 }
 
+
 p{
-width: 500px;
+width: 400px;
 height: 150px;
 border: 0px;
 position: absolute;
 top: 150px;
-right: 5%
+left : 800px;
 
-
- 
 }
+
+	/* Restrict Dropdown size*/
+	#dropdown-restrict{
+	    max-height: 200px;
+	    overflow: auto;
+
+	}
 
 
 </style>
+<link rel="stylesheet" type="text/css" href="../dist/css/bootstrap.min.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
+
 <body>
+	
+	<!-- NAVBAR
+	    ================================================== -->
+		<div class="navbar-wrapper">
+		      <div class="container">
+
+		        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+		          <div class="container">
+		            <div class="navbar-header">
+		              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		                <span class="sr-only">Toggle navigation</span>
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		              </button>
+		              <a class="navbar-brand" href="carousal3.html">LINC LOGO</a>
+		            </div>
+		            <div class="navbar-collapse collapse">
+		              <ul class="nav navbar-nav">
+		                <li><a href="#">HOME</a></li>
+		                <li><a href="#about">ABOUT US</a></li>
+
+		                <li class="dropdown">
+		                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">CONTACT SDC AFFILIATES<b class="caret"></b></a>
+		                  <ul class="dropdown-menu" id="dropdown-restrict">
+							<li class="divider"></li>
+		                    <li class="dropdown-header">A-C</li>
+		                    <li><a data-target="#alexanderModal" data-toggle="modal">Alexander</a></li>
+		                    <li><a data-target="#alexanderModal" data-toggle="modal">Avent</a></li>
+		                    <li><a data-target="#alexanderModal" data-toggle="modal">Avery</a></li>
+		                    <li class="divider"></li>
+		                    <li class="dropdown-header">D-E</li>
+		                    <li><a data-target="#alexanderModal" data-toggle="modal">Alexander</a></li>
+		                    <li><a data-target="#alexanderModal" data-toggle="modal">Avent</a></li>
+		                    <li><a data-target="#alexanderModal" data-toggle="modal">Avery</a></li>
+		                  </ul>
+		                </li>
+
+		                <li class="dropdown">
+		                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">NC DATA SERVICE PUBLIC WEBSITES<b class="caret"></b></a>
+		                  <ul class="dropdown-menu">
+		                    <li><a href="#">LINC- Log into North Carolina</a></li>
+		                    <li><a href="#">Census Lookup - 2000 Census</a></li>
+		                    <li><a href="#">Census Home - All Census Data</a></li>
+							<li><a href="#">State Demographics - Estimates/Projections</a></li>
+							<li><a href="#">State Comparisons - All States</a></li>
+							<li><a href="#">State Data Center - Directory Info</a></li>
+
+		                  </ul>
+		                </li>
+		              </ul>
+		            </div>
+		          </div>
+		        </div>
+
+		      </div>
+		    </div>
+	
+	
+	
+	
 <h1> Energy and Utilities Bubble</h1>
-<p> This bubble chart shows the distribution of energy sources for heating occupied housing units across 19 counties in North Carolina for the year 2010. Each county is represented by a different color. Each has a label to depict the enery source it represents. The energy source may be Gas, Tank LP, Electricity, Fuel oil, other fuel, or no heating fuel. The size of the bubble changes based on how much housing units use that particular source of energy for heating. The color of the bubble varies according to the county it represents.<p>
-<img scr="img/dan.jpg" alt="Key">
+<p> This bubble chart shows the distribution of energy sources for heating occupied housing units across 19 counties in North Carolina for the year 2010. Each county is represented by a different color. Each has a label to depict the enery source it represents. The energy source may be Gas, Tank LP, Electricity, Fuel oil, other fuel, or no heating fuel. The size of the bubble changes based on how much housing units use that particular source of energy for heating. The color of the bubble varies according to the county it represents.</p>
+<img class="bubblekey" src="../img/bubbles.jpg" alt="Key">
 <script src="http://d3js.org/d3.v3.min.js"></script>
-<div>
+<div class="bubble">
 <script>
 
 var diameter = 960,
