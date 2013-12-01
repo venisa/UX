@@ -1,0 +1,147 @@
+{
+ "name": "flare",
+ "children": [
+  {
+   "name": "analytics",
+   "children": [
+    {
+     "name": "Brunswick",
+     "children": [
+      {"name": "Brunswick", "size": 70}      
+     ]
+    },
+    {
+     "name": "Avery",
+     "children": [
+      {"name": "Avery", "size": 70} 
+     ]
+    },
+    {
+     "name": "Cleaveland",
+     "children": [
+      {"name": "Cleaveland", "size": 70} 
+     ]
+    }
+   ]
+  },
+  {
+   "name": "animate",
+   "children": [    
+    {
+     "name": "Jackson",
+     "children": [
+      {"name": "Jackson", "size": 70} 
+     ]
+    }    
+   ]
+  },
+  {
+   "name": "data",
+   "children": [
+    {
+     "name": "Hyde",
+     "children": [
+      {"name": "Hyde", "size": 70} 
+     ]
+    }    
+   ]
+  },
+  {
+   "name": "Scotland",
+   "children": [
+    {"name": "Scotland", "size": 70} 
+   ]
+  },  
+  {
+   "name": "Person",
+   "children": [
+    {"name": "Person", "size": 70} 
+   ]
+  },
+  {
+   "name": "Nash",
+   "children": [
+    {"name": "Nash", "size": 70} 
+   ]
+  },
+  {
+   "name": "Clay",
+   "children": [
+    {"name": "Brunswick", "size": 70} 
+   ]
+  },
+  {
+   "name": "Greene",
+   "children": [
+    {
+     "name": "Greene",
+     "children": [
+      {"name": "Greene", "size": 70} 
+     ]
+    },
+    {
+     "name": "Halifax",
+     "children": [
+      {"name": "Halifax", "size": 70} 
+     ]
+    },
+    {
+     "name": "Hertford",
+     "children": [
+      {"name": "Hertford", "size": 70}     
+      
+     ]
+    },
+    {
+     "name": "Stokes",
+     "children": [
+      {"name": "Stokes", "size": 70} 
+     ]
+    },
+    {
+     "name": "Tyrell",
+     "children": [
+      {"name": "Tyrell", "size": 70} 
+     ]
+    },
+    {
+     "name": "operator",
+     "children": [
+      {
+       "name": "Watauga",
+       "children": [
+       {"name": "Watauga", "size": 70} 
+       ]
+      },
+      {
+       "name": "Graham",
+       "children": [
+        {"name": "Graham", "size": 70} 
+       ]
+      },
+      {
+       "name": "Madison",
+       "children": [
+        {"name": "Madison", "size": 70} 
+       ]
+      },
+     
+      {
+       "name": "Haywood",
+       "children": [
+        {"name": "Haywood", "size": 70} 
+       ]
+      },
+      {
+       "name": "Pasquotank",
+       "children": [
+        {"name": "Pasquotank", "size": 70} 
+       ]
+      }      
+     ]
+    }
+    
+   ]
+  }
+ ]
+}

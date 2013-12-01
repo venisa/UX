@@ -1,0 +1,242 @@
+{
+ "name": "flare",
+ "children": [
+  {
+   "name": "analytics",
+   "children": [
+    {
+     "name": "Brunswick",
+     "children": [
+      {"name": "Gas", "size": 648},
+      {"name": "LP", "size": 7030},
+      {"name": "Electric", "size": 35902},
+      {"name": "Oil", "size": 1030},
+	  {"name": "Other", "size": 590},
+	  {"name": "No Fuel", "size": 209}
+     ]
+    },
+    {
+     "name": "Avery",
+     "children": [
+      {"name": "Gas ", "size": 314},
+      {"name": "LP ", "size": 1506},
+      {"name": "Electric", "size": 2315},
+      {"name": "Oil", "size": 2152},
+	  {"name": "Other", "size": 907},
+	  {"name": "No Fuel", "size": 0}
+     ]
+    },
+    {
+     "name": "Cleaveland",
+     "children": [
+      {"name": "Gas ", "size": 8840},
+      {"name": "LP ", "size": 1709},
+      {"name": "Electric", "size": 22462},
+      {"name": "Oil", "size": 3283},
+	  {"name": "Other", "size": 1211},
+	  {"name": "No Fuel", "size": 174}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "animate",
+   "children": [    
+    {
+     "name": "Jackson",
+     "children": [
+      {"name": "Gas ", "size": 480},
+      {"name": "LP ", "size": 3582},
+      {"name": "Electric", "size": 8469},
+      {"name": "Oil", "size": 2017},
+	  {"name": "Other", "size": 1280},
+	  {"name": "No Fuel", "size": 38}
+     ]
+    }    
+   ]
+  },
+  {
+   "name": "data",
+   "children": [
+    {
+     "name": "Hyde",
+     "children": [
+      {"name": "Gas ", "size": 63},
+      {"name": "LP ", "size": 1107},
+      {"name": "Electric", "size": 614},
+      {"name": "Oil", "size": 56},
+	  {"name": "Other", "size": 81},
+	  {"name": "No Fuel", "size": 0}
+     ]
+    }    
+   ]
+  },
+  {
+   "name": "Scotland",
+   "children": [
+    {"name": "Gas ", "size": 1943},
+      {"name": " LP ", "size": 2158},
+      {"name": "Electric", "size": 8470},
+      {"name": "Oil", "size": 393},
+	  {"name": "Other", "size": 222},
+	  {"name": "No Fuel", "size": 50}
+   ]
+  },  
+  {
+   "name": "Person",
+   "children": [
+    {"name": "Gas ", "size": 2501},
+      {"name": "LP ", "size": 3501},
+      {"name": "Electric", "size": 7549},
+      {"name": "Oil", "size": 1028},
+	  {"name": "Other", "size": 738},
+	  {"name": "No Fuel", "size": 71}
+   ]
+  },
+  {
+   "name": "Nash",
+   "children": [
+    {"name": "Gas ", "size": 8839},
+      {"name": " LP ", "size": 7526},
+      {"name": "Electric", "size": 20061},
+      {"name": "Oil", "size": 792},
+	  {"name": "Other", "size": 436},
+	  {"name": "No Fuel", "size": 108}
+   ]
+  },
+  {
+   "name": "Clay",
+   "children": [
+    {"name": "Gas ", "size": 127},
+      {"name": " LP ", "size": 1683},
+      {"name": "Electric", "size": 1846},
+      {"name": "Oil", "size": 339},
+	  {"name": "Other", "size": 515},
+	  {"name": "No Fuel", "size": 0}
+   ]
+  },
+  {
+   "name": "Greene",
+   "children": [
+    {
+     "name": "Greene",
+     "children": [
+      {"name": "Gas ", "size": 333},
+      {"name": " LP ", "size": 1984},
+      {"name": "Electric", "size": 4309},
+      {"name": "Oil", "size": 296},
+	  {"name": "Other", "size": 92},
+	  {"name": "No Fuel", "size": 7}
+     ]
+    },
+    {
+     "name": "Halifax",
+     "children": [
+      {"name": "Gas ", "size": 3944},
+      {"name": " LP ", "size": 4843},
+      {"name": "Electric", "size": 9850},
+      {"name": "Oil", "size": 2265},
+	  {"name": "Other", "size": 666},
+	  {"name": "No Fuel", "size": 22}
+     ]
+    },
+    {
+     "name": "Hertford",
+     "children": [
+      {"name": "Gas ", "size": 799},
+      {"name": " LP ", "size": 2246},
+      {"name": "Electric", "size": 4418},
+      {"name": "Oil", "size": 1255},
+	  {"name": "Other", "size": 269},
+	  {"name": "No Fuel", "size": 20}    
+      
+     ]
+    },
+    {
+     "name": "Stokes",
+     "children": [
+      {"name": "Gas ", "size": 372},
+      {"name": " LP ", "size": 1797},
+      {"name": "Electric", "size": 12124},
+      {"name": "Oil", "size": 2904},
+	  {"name": "Other", "size": 1440},
+	  {"name": "No Fuel", "size": 122}
+     ]
+    },
+    {
+     "name": "Tyrell",
+     "children": [
+      {"name": "Gas ", "size": 63},
+      {"name": " LP ", "size": 702},
+      {"name": "Electric", "size": 721},
+      {"name": "Oil", "size": 101},
+	  {"name": "Other", "size": 76},
+	  {"name": "No Fuel", "size": 0}
+     ]
+    },
+    {
+     "name": "operator",
+     "children": [
+      {
+       "name": "Watauga",
+       "children": [
+        {"name": "Gas ", "size": 649},
+      {"name": " LP ", "size": 3393},
+      {"name": "Electric", "size": 10014},
+      {"name": "Oil", "size": 5612},
+	  {"name": "Other", "size": 1456},
+	  {"name": "No Fuel", "size": 29}
+       ]
+      },
+      {
+       "name": "Graham",
+       "children": [
+        {"name": "Gas ", "size": 63},
+      {"name": " LP ", "size": 787},
+      {"name": "Electric", "size": 1540},
+      {"name": "Oil", "size": 1127},
+	  {"name": "Other", "size": 267},
+	  {"name": "No Fuel", "size": 0}
+       ]
+      },
+      {
+       "name": "Madison",
+       "children": [
+        {"name": "Gas ", "size": 139},
+      {"name": " LP ", "size": 1228},
+      {"name": "Electric", "size": 2137},
+      {"name": "Oil", "size": 3229},
+	  {"name": "Other", "size": 1261},
+	  {"name": "No Fuel", "size": 8}
+       ]
+      },
+     
+      {
+       "name": "Haywood",
+       "children": [
+        {"name": "Gas ", "size": 641},
+      {"name": " LP ", "size": 4147},
+      {"name": "Electric", "size": 10383},
+      {"name": "Oil", "size": 8584},
+	  {"name": "Other", "size": 2670},
+	  {"name": "No Fuel", "size": 20}
+       ]
+      },
+      {
+       "name": "Pasquotank",
+       "children": [
+        {"name": "Gas ", "size": 569},
+      {"name": " LP ", "size": 2609},
+      {"name": "Electric", "size": 9811},
+      {"name": "Oil", "size": 1350},
+	  {"name": "Other", "size": 197},
+	  {"name": "No Fuel", "size": 27}
+       ]
+      }      
+     ]
+    }
+    
+   ]
+  }
+ ]
+}
