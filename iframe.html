@@ -74,6 +74,13 @@ left: 12%;
       margin-top: 10px;
     }
 
+	/* Restrict Dropdown size*/
+	#dropdown-restrict{
+	    max-height: 200px;
+	    overflow: auto;
+
+	}
+
 </style>
 </head>
 <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
@@ -155,6 +162,30 @@ left: 12%;
 
 
 <div>
+	
+	
+	<!-- Modal -->
+	<div class="modal fade" id="alexanderModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <h4 class="modal-title" id="myModalLabel">Contact details</h4>
+	      </div>
+	      <div class="modal-body">
+	        ALEXANDER COUNTY<br/>
+			Forsyth County Public Library<br/>
+			Mr. William H. King<br/>
+			660 West 5th Street<br/>
+			Winston-Salem, NC 27101<br/>
+			(336) 727-2220	<br/>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
 
 </body>
 </html>
