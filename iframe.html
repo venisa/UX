@@ -8,42 +8,151 @@ font-size: 64px;
 font-weight: 300;
 letter-spacing: -2px;
 margin: .3em 0 .1em 0;
-top: 50px;
+top: 80px;
 left: 36%;
 position: absolute;
 
 }
+
 iframe {
 width: 960px;
 height: 500px;
 border: 1px solid #DEDEDE;
-top: 160px;
-left: 20%;
+top: 170px;
+left: 12%;
 position: relative;
 }
 
-p{
+fieldset{
 width: 960px;
 height: 500px;
 border: 0px;
 align: center;
 position: relative;
-top: 150px;
-left: 20%;
+top: 180px;
+left: 12%;
  
 }
 
+/*navbar*/
+.navbar-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      margin-top: 20px;
+      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+    }
+    .navbar-wrapper .navbar {
+
+    }
+
+    /* Remove border and change up box shadow for more contrast */
+    .navbar .navbar-inner {
+      border: 0;
+      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+              box-shadow: 0 2px 10px rgba(0,0,0,.25);
+    }
+
+    /* Downsize the brand/project name a bit */
+    .navbar .brand {
+      padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+      font-size: 16px;
+      font-weight: bold;
+      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    }
+
+    /* Navbar links: increase padding for taller navbar */
+    .navbar .nav > li > a {
+      padding: 15px 20px;
+    }
+
+    /* Offset the responsive button for proper vertical alignment */
+    .navbar .btn-navbar {
+      margin-top: 10px;
+    }
+
 </style>
 </head>
+<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
 <body>
+
+ <!-- NAVBAR
+    ================================================== -->
+	<div class="navbar-wrapper">
+	      <div class="container">
+
+	        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+	          <div class="container">
+	            <div class="navbar-header">
+	              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	                <span class="sr-only">Toggle navigation</span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	              </button>
+	              <a class="navbar-brand" href="carousal3.html">LINC LOGO</a>
+	            </div>
+	            <div class="navbar-collapse collapse">
+	              <ul class="nav navbar-nav">
+	                <li><a href="#">HOME</a></li>
+	                <li><a href="#about">ABOUT US</a></li>
+
+	                <li class="dropdown">
+	                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">CONTACT SDC AFFILIATES<b class="caret"></b></a>
+	                  <ul class="dropdown-menu" id="dropdown-restrict">
+						<li class="divider"></li>
+	                    <li class="dropdown-header">A-C</li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">Alexander</a></li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">Avent</a></li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">Avery</a></li>
+	                    <li class="divider"></li>
+	                    <li class="dropdown-header">D-E</li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">Alexander</a></li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">Avent</a></li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">Avery</a></li>
+	                  </ul>
+	                </li>
+
+	                <li class="dropdown">
+	                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">NC DATA SERVICE PUBLIC WEBSITES<b class="caret"></b></a>
+	                  <ul class="dropdown-menu">
+	                    <li><a href="#">LINC- Log into North Carolina</a></li>
+	                    <li><a href="#">Census Lookup - 2000 Census</a></li>
+	                    <li><a href="#">Census Home - All Census Data</a></li>
+						<li><a href="#">State Demographics - Estimates/Projections</a></li>
+						<li><a href="#">State Comparisons - All States</a></li>
+						<li><a href="#">State Data Center - Directory Info</a></li>
+
+	                  </ul>
+	                </li>
+	              </ul>
+	            </div>
+	          </div>
+	        </div>
+
+	      </div>
+	    </div>
+
+	
+	
+	
 <h1> Population Pyramid </h1>
 <iframe src="userstory1/index.html" marginwidth="0" marginheight="0" scrolling="no">
   <p>Your browser does not support iframes.</p>
 </iframe>
 <div>
-<p>
-This diagram shows the distribution of age groups in the North Carolina over the last 150 years. Use the arrow keys to observe the changing population according to years. The blue bars are the male population for each five-year age bracket, while the pink bars are the female population.
-</p
+
+	<fieldset>
+	    
+	    This diagram shows the distribution of age groups in the North Carolina over the last 150 years. Use the arrow keys to observe the changing population according to years. The blue bars are the male population for each five-year age bracket, while the pink bars are the female population.
+	  </fieldset>
+
+
 
 <div>
 
