@@ -90,7 +90,8 @@ background-color: #D0D3D3;
 </head>
 <body>
 
- <!-- NAVBAR
+
+  <!-- NAVBAR
     ================================================== -->
 	<div class="navbar-wrapper">
 	      <div class="container">
@@ -109,7 +110,8 @@ background-color: #D0D3D3;
 	            <div class="navbar-collapse collapse">
 	              <ul class="nav navbar-nav">
 	                <li><a href="#">HOME</a></li>
-	                <li><a href="#about">ABOUT US</a></li>
+	                <li><a data-target="#aboutUsModal" data-toggle="modal">ABOUT US</a></li>
+					<li><a data-target="#helpModal" data-toggle="modal">HELP</a></li>
 
 	                <li class="dropdown">
 	                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">CONTACT SDC AFFILIATES<b class="caret"></b></a>
@@ -117,13 +119,63 @@ background-color: #D0D3D3;
 						<li class="divider"></li>
 	                    <li class="dropdown-header">A-C</li>
 	                    <li><a data-target="#alexanderModal" data-toggle="modal">Alexander</a></li>
-	                    <li><a data-target="#alexanderModal" data-toggle="modal">Avent</a></li>
 	                    <li><a data-target="#alexanderModal" data-toggle="modal">Avery</a></li>
+						<li><a data-target="#alexanderModal" data-toggle="modal">Beaufort</a></li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">Bertie</a></li>
+						<li><a data-target="#alexanderModal" data-toggle="modal">Caldwell</a></li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">Camden</a></li>
+
 	                    <li class="divider"></li>
-	                    <li class="dropdown-header">D-E</li>
-	                    <li><a data-target="#alexanderModal" data-toggle="modal">Alexander</a></li>
-	                    <li><a data-target="#alexanderModal" data-toggle="modal">Avent</a></li>
-	                    <li><a data-target="#alexanderModal" data-toggle="modal">Avery</a></li>
+	                    <li class="dropdown-header">D-F</li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">Dare</a></li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">Davidson</a></li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">EdgeCombe</a></li>
+						<li><a data-target="#alexanderModal" data-toggle="modal">Forsyth</a></li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">Franklin</a></li>
+
+						<li class="divider"></li>
+	                    <li class="dropdown-header">G-J</li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">Gaston</a></li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">Gates</a></li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">Henderson</a></li>
+						<li><a data-target="#alexanderModal" data-toggle="modal">Hyde</a></li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">Jackson</a></li>
+						<li><a data-target="#alexanderModal" data-toggle="modal">Jones</a></li>
+
+						<li class="divider"></li>
+	                    <li class="dropdown-header">K-N</li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">Lee</a></li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">Lincoln</a></li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">Madison</a></li>
+						<li><a data-target="#alexanderModal" data-toggle="modal">Martin</a></li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">Nash</a></li>
+						<li><a data-target="#alexanderModal" data-toggle="modal">New Hanover</a></li>
+
+						<li class="divider"></li>
+	                    <li class="dropdown-header">O-S</li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">Onslow</a></li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">Orange</a></li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">Pit</a></li>
+						<li><a data-target="#alexanderModal" data-toggle="modal">Polk</a></li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">Randolph</a></li>
+						<li><a data-target="#alexanderModal" data-toggle="modal">Rutherford</a></li>
+						<li><a data-target="#alexanderModal" data-toggle="modal">Scotland</a></li>
+						<li><a data-target="#alexanderModal" data-toggle="modal">Stanley</a></li>
+
+						<li class="divider"></li>
+	                    <li class="dropdown-header">T-W</li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">Tyrell</a></li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">Transylvania</a></li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">Washington</a></li>
+						<li><a data-target="#alexanderModal" data-toggle="modal">Wayne</a></li>
+
+
+						<li class="divider"></li>
+	                    <li class="dropdown-header">X-Z</li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">Yadkin</a></li>
+	                    <li><a data-target="#alexanderModal" data-toggle="modal">Yancy</a></li>
+
+
 	                  </ul>
 	                </li>
 
@@ -131,11 +183,11 @@ background-color: #D0D3D3;
 	                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">NC DATA SERVICE PUBLIC WEBSITES<b class="caret"></b></a>
 	                  <ul class="dropdown-menu">
 	                    <li><a href="#">LINC- Log into North Carolina</a></li>
-	                    <li><a href="#">Census Lookup - 2000 Census</a></li>
-	                    <li><a href="#">Census Home - All Census Data</a></li>
-						<li><a href="#">State Demographics - Estimates/Projections</a></li>
-						<li><a href="#">State Comparisons - All States</a></li>
-						<li><a href="#">State Data Center - Directory Info</a></li>
+	                    <li><a href="http://www.osbm.state.nc.us/ncosbm/facts_and_figures/socioeconomic_data/census_lookup.shtm">Census Lookup - 2000 Census</a></li>
+	                    <li><a href="http://www.osbm.state.nc.us/ncosbm/facts_and_figures/socioeconomic_data/census_home.shtm">Census Home - All Census Data</a></li>
+						<li><a href="http://www.osbm.state.nc.us/ncosbm/facts_and_figures/socioeconomic_data/population_estimates.shtm">State Demographics - Estimates/Projections</a></li>
+
+						<li><a href="http://www.osbm.state.nc.us/ncosbm/facts_and_figures/state_data_center.shtm">State Data Center - Directory Info</a></li>
 
 	                  </ul>
 	                </li>
@@ -146,7 +198,6 @@ background-color: #D0D3D3;
 
 	      </div>
 	    </div>
-
 	
 	
 	
@@ -164,6 +215,8 @@ background-color: #D0D3D3;
 
 
 <div>
+	
+	
 	
 	
 	<!-- Modal -->
@@ -188,6 +241,73 @@ background-color: #D0D3D3;
 	    </div><!-- /.modal-content -->
 	  </div><!-- /.modal-dialog -->
 	</div><!-- /.modal -->
+	
+	<!-- About us Modal-->
+	<!-- Modal -->
+	<div class="modal fade" id="aboutUsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <h4 class="modal-title" id="myModalLabel">LINC</h4>
+	      </div>
+	      <div class="modal-body">
+	       	<h1>What is Log Into North Carolina (LINC)?</h1>
+
+			Log Into North Carolina is an interactive data retrieval service containing historical information for over 900 data items and a variety of geographic areas within the state.<br/><br/>
+
+			Most data are available for the state and all 100 counties. Some items are available for municipalities. Others, especially census data, may be retrieved for tracts and townships.<br/><br/>
+
+			There is a definition for each data item to give the user some understanding of what the data mean. Other metadata provide information on the source and frequency of the information.<br/><br/>
+
+			Reports may be viewed through your browser, printed, or saved as html files for loading into a spreadsheet. For example: Click in the report frame. From the file menu, choose "Save As...," and save as an html (.html) file. Open the htm file in Excel.<br/><br/>
+
+			Begin by selecting at least one geographic area in the left frame and then clicking Continue. The status bar below will reflect your choices as you proceed. 
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+	<!--End of About us Modal-->
+
+
+	<!-- Help Modal-->
+	<!-- Modal -->
+	<div class="modal fade" id="helpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <h4 class="modal-title" id="myModalLabel">HELP</h4>
+	      </div>
+	      <div class="modal-body">
+
+			<h1>Getting Started</h1>
+
+			Get reports from LINC in one of three ways:<br/><br/>
+
+			    Topic Report--choose this option if you want to get key data items by subject in a preformatted report for a county or the state.<br/><br/>
+			    Custom Report--choose this option if you want to get selected data items for any of the available geographic areas. LINC will determine the appropriate report formats based on your selections.<br/><br/>
+
+			    If you select a county, also clicking the first option box under the Counties category will retrieve data for the county, its municipalities (or municipal parts, if appropriate), county balance, townships, and tracts, depending upon which areas have data for the data item(s) you request. Township and tract data are available only for 1990 decennial census items and county balance only for population counts and estimates. Selecting a multi-county region under the Regions category will return data for the individual component counties and region totals.<br/><br/>
+
+			    Click in the gray frame to the right, then press the control and F keys simultaneously to invoke the find function of your browser if you want to search for a specific geographic name.<br/><br/>
+			    One-Step Search--choose this option if you are an experienced LINC user. You will need to know the appropriate geographic and data item codes to enter.<br/><br/>
+
+			Follow any instructions that may appear in alert boxes.
+
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+	<!--End of Help Modal-->
+	
+	
 
 </body>
 </html>
